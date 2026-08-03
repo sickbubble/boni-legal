@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Boni — Legal</title>
+  <meta name="description" content="Boni is a pet life companion app for dog owners: log daily care, track walks with GPS, train with a built-in clicker, and get AI-powered guidance.">
+  <title>Boni — Your Pet's Life Companion</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -38,13 +39,58 @@
       flex: 1;
       width: 100%;
     }
-    .intro {
+    .hero {
       text-align: center;
       margin-bottom: 32px;
     }
-    .intro p {
+    .hero img {
+      width: 120px;
+      height: 120px;
+      margin-bottom: 16px;
+    }
+    .hero h2 {
+      font-size: 22px;
+      font-weight: 700;
+      color: #1A1210;
+      margin-bottom: 8px;
+    }
+    .hero p {
       color: #7A6A5F;
       font-size: 16px;
+    }
+    .section-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: #1A1210;
+      margin: 32px 0 12px;
+    }
+    .about p {
+      color: #4A3D35;
+      font-size: 15px;
+      margin-bottom: 12px;
+    }
+    ul.features {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+    ul.features li {
+      background: #FFFFFF;
+      border: 1px solid #FFF1E6;
+      border-radius: 10px;
+      padding: 10px 14px;
+      font-size: 14px;
+      color: #4A3D35;
+    }
+    ul.features li strong { color: #267A6E; }
+    .note {
+      background: #FFF1E6;
+      border-radius: 10px;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #7A6A5F;
     }
     .cards {
       display: flex;
@@ -115,9 +161,27 @@
     <p>Your pet's life companion</p>
   </header>
   <main>
-    <div class="intro">
-      <p>Please review our legal documents below.</p>
+    <div class="hero">
+      <img src="boni-logo.png" alt="Boni app logo — a friendly dog mascot">
+      <h2>Everything your dog needs, in one app</h2>
+      <p>Boni is a mobile app for iOS and Android that helps dog owners log, organise, and improve their pet's daily life.</p>
     </div>
+
+    <h3 class="section-title">What Boni does</h3>
+    <div class="about">
+      <ul class="features">
+        <li><strong>Pet journal</strong> — log meals, water, medication, grooming, vet visits, and daily moments with photos.</li>
+        <li><strong>GPS walk tracking</strong> — record walks with live route, distance, and duration.</li>
+        <li><strong>Training with clicker</strong> — built-in clicker and guided training sessions to teach new skills.</li>
+        <li><strong>AI pet assistant</strong> — ask questions about care and training and get instant, personalised guidance.</li>
+        <li><strong>Reminders</strong> — never miss feeding times, medication, or activities.</li>
+        <li><strong>Family sharing</strong> — share one pet profile with the whole household.</li>
+      </ul>
+      <p>Boni is coming soon to the App Store and Google Play.</p>
+      <p class="note">Signing in with Google or Apple is used only to create and secure your Boni account — we access just your name, email address, and profile picture, as described in our Privacy Policy below.</p>
+    </div>
+
+    <h3 class="section-title">Legal</h3>
     <div class="cards">
       <a href="privacy.html" class="card">
         <div class="card-icon privacy">&#128274;</div>
